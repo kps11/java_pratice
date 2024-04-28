@@ -1,5 +1,6 @@
 package java_pratice;
 
+//problem statement https://leetcode.com/problems/remove-linked-list-elements/description/
 import java.util.Scanner;
 
 public class RemoveDuplicate {
