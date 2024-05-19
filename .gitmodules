@@ -1,0 +1,3 @@
+[submodule "array_string"]
+	path = array_string
+	url = https://github.com/kps11/array_string.git
