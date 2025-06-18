@@ -1,4 +1,4 @@
-package java_pratice.DataStructure.linkedList.DoubleLinkedlist;
+package java_pratice.DataStructure.DoubleLinkedlist;
 
 public class Execution {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package java_pratice.DataStructure.linkedList.DoubleLinkedlist;
+package java_pratice.DataStructure.DoubleLinkedlist;
 
 public class DoubleNode {
     private int data;

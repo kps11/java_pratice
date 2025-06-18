@@ -1,4 +1,4 @@
-package java_pratice.DataStructure.linkedList.stack;
+package java_pratice.DataStructure.stack;
 
 public class StackNode {
     private int data ;

@@ -3,6 +3,10 @@ package java_pratice.DataStructure.linkedList;
 public class SingleLinkedList {
     private SingleNode head;
 
+    public SingleNode getHead() {
+        return head;
+    }
+
     public  void insertAtEnd (int value){
         SingleNode newNode = new SingleNode(value, null);
         if (head == null){
