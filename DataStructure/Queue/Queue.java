@@ -1,11 +1,11 @@
 package java_pratice.DataStructure.Queue;
 
-public class Queue {
-   private QueueNode head ;
-   private QueueNode tail;
+public class Queue<T> {
+   private QueueNode <T> head ;
+   private QueueNode <T> tail;
 
-   public void enqueue( int data ){
-       QueueNode newNode = new QueueNode(data, null);
+   public void enqueue( T data ){
+       QueueNode <T> newNode = new QueueNode<>(data, null);
        if ( head == null){
            head = tail = newNode;
        }else {
@@ -14,11 +14,11 @@ public class Queue {
        }
    }
 
-   public int  dequeue(){
+   public T  dequeue(){
        if ( head == null){
            throw new Error("List is empty ");
        }else{
-           int frontData = head.getData();
+           T frontData = head.getData();
             head = head.getNext();
            if (head == null) {
                tail = null;
@@ -28,12 +28,12 @@ public class Queue {
        }
    }
 
-   public int peek(){
+   public T peek(){
        if ( head == null){
            throw new Error("List is empty");
-       }else {
-           return head.getData();
        }
+           return head.getData();
+
    }
 
    public int size (){

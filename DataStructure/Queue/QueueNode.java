@@ -1,18 +1,18 @@
 package java_pratice.DataStructure.Queue;
 
-public class QueueNode {
-     private int data;
+public class QueueNode<T> {
+     private T data;
      private QueueNode next;
 
-    public int getData() {
+    public T getData() {
         return data;
     }
 
-    public void setData(int data) {
+    public void setData(T data) {
         this.data = data;
     }
 
-    public QueueNode(int data, QueueNode next) {
+    public QueueNode(T data, QueueNode next) {
         this.data = data;
         this.next = next;
     }
